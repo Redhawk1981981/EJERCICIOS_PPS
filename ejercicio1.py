@@ -1,6 +1,5 @@
 # Escribir un programa que pida al usuario una palabra 
 # y muestre por pantalla si es un palíndromo.
-palabra = input("Introduce una palabra: ")
 
 def palindromo(palabra):    
     palabra_inv = palabra
@@ -12,4 +11,5 @@ def palindromo(palabra):
     else:
         return False
 
-palindromo(palabra)
+if __name__ == "__main__":
+    palabra = input("Introduce una palabra: ")
