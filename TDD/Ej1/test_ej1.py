@@ -1,4 +1,4 @@
-from TDD.Ej1.ej1 import *
+from ej1 import *
 
 palabra = "ala"
 def test_palindromo():
